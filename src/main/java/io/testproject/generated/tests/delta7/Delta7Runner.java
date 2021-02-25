@@ -28,9 +28,9 @@ public class Delta7Runner {
    */
   public static StepExecutionResult runLoginCase() throws Exception {
     Runner runner = Runner.createWeb(developerToken,browserType);
-  // return runner.run(new LoginCase(), true);
+   return runner.run(new LoginCase(), true);
     //return runner.run(new ChoixDuCompteCase(), true);
-    return runner.run(new ListeDesTablettesInvalidCode(), true);
+  //  return runner.run(new ListeDesTablettesInvalidCode(), true);
     //return runner.run(new GestionDesTablettes(), true);
     //return runner.run(new TablettesCase(), true);
    // return runner.run(new GestionDesCompetesCase(), true);
