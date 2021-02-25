@@ -42,7 +42,7 @@ jar {
     }
      manifest {
         attributes(
-            'Main-Class': 'io.testproject.generated.tests.delta7'
+            'Main-Class': 'io.testproject.generated.tests.delta7.Delta7Runner'
         )
     }
 
