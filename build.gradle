@@ -48,7 +48,9 @@ jar {
 
 }
 
+
 dependencies {
-    tpsdk files("${TP_SDK}")
+   compile fileTree(dir: 'lib', include: '*.jar')
 
 }
+
