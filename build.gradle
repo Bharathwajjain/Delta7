@@ -40,6 +40,11 @@ jar {
             }
         }
     }
+     manifest {
+        attributes(
+            'Main-Class': 'io.testproject.generated.tests.delta7'
+        )
+    }
 
 }
 
